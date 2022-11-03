@@ -129,7 +129,7 @@ jobs:
 
       # run grading
       # add id to step so outputs can be referenced
-      - uses: education/autograding@v1
+      - uses: markpatterson27/autograding@dev-release
         name: "** Grading and Feedback **"
         id: autograde
         continue-on-error: true
